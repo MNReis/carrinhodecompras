@@ -3,52 +3,69 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <title>Carrinho de Compras</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
-
 <body>
-<div class="compras">
-  <img src="https://i.imgur.com/wXLJvPw.png" alt="logo">
-</div>
 
-
-<div class="carrinhologo">
-  <img src="https://i.imgur.com/3K0oWRC.png" alt="logo">
-</div>
-
-
-  <div class="carrinho">
-    <div class="produto">
-      <img src="https://i.imgur.com/yZa0CMR.jpg" alt="Produto 1">
-      <div class="descricao">
-        <h3>Produto 1</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+ <header>
+    <nav>
+      <div class="logo">
+     <img src="https://i.imgur.com/kmQEXAI.png" alt="Logo">
       </div>
-      <div class="preco">$19.99</div>
+      <ul>
+        <li><a href="https://mnreis.github.io/LOJA-H3MJ/">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a class="active" href="#">Carrinho</a></li>
+        <li><a href="https://mnreis.github.io/login/">Cadastrar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+
+
+  <div class="cart-container">
+  <h2>Carrinho de Compras</h2>
+  
+  <div class="cart-items">
+    <div class="cart-item">
+      <img src="https://i.imgur.com/omKPcxF.png" alt="Produto 1">
+      <div class="item-details">
+        <h3>CAMISETA NIKE LAKERS - PRETA</h3>
+        <p>R$ 199,99</p>
+        <button class="remove-button">Remover</button>
+      </div>
     </div>
     
-    <div class="produto">
-      <img src="https://i.imgur.com/omKPcxF.png" alt="Produto 2">
-      <div class="descricao">
-        <h3>Produto 2</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="cart-item">
+      <img src="https://i.imgur.com/yZa0CMR.jpg" alt="Produto 2">
+      <div class="item-details">
+        <h3>CAMISA ADIDAS REAL MADRID- AZUL</h3>
+        <p>R$ 149,99</p>
+        <button class="remove-button">Remover</button>
       </div>
-      <div class="preco">$29.99</div>
     </div>
     
-    <div class="produto">
+    <div class="cart-item">
       <img src="https://i.imgur.com/tUqzYjL.png" alt="Produto 3">
-      <div class="descricao">
+      <div class="item-details">
         <h3>CAMISA NIKE BARCELONA DRAKE - AZUL</h3>
-        <p></p>
+        <p>R$ 159,90</p>
+        <button class="remove-button">Remover</button>
       </div>
-      <div class="preco">R$ 159,90</div>
     </div>
-    
-    <div class="total">Total: $89.97</div>
+  </div>
+  
+  <div class="cart-summary">
+    <p>Total: R$ 509,88</p>
+    <button class="checkout-button">Finalizar Compra</button>
+  </div>
+</div>
+
 
 
 </body>
 </html>
+
